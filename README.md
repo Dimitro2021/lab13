@@ -1,2 +1,2 @@
 # lab13
-for ucu
+in linkedbst.py is main proggram
