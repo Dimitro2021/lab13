@@ -1,2 +1,3 @@
 # lab13
-in linkedbst.py is main proggram
+
+In linkedbst.py I've changed some functions to iterative analogs so to work with bigger database
