@@ -412,8 +412,8 @@ class LinkedBST(AbstractCollection):
                 new_tree.find(word)
             return time.time() - cur_time
 
-        return f"""find in list: {list_find(all_words)}\nfind in ordered tree{bin_tree_find(all_words)}
-find in shuffled tree{bin_tree_shuffled(all_words)}\nfind in balanced tree{balanced_tree(all_words)}"""
+        return f"""find in list: {list_find(all_words)}\nfind in ordered tree: {bin_tree_find(all_words)}
+find in shuffled tree: {bin_tree_shuffled(all_words)}\nfind in balanced tree: {balanced_tree(all_words)}"""
     
 
 if __name__ == "__main__":
@@ -435,4 +435,3 @@ if __name__ == "__main__":
     # print(LBST)
     # print(LBST.predecessor(10))
     # print(LBST.rangeFind(1, 50))
-
